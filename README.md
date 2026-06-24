@@ -1,5 +1,5 @@
 # passwd-expiry-alert
-Send notification emails for expiring passwords of Linux PAM accounts
+Send notification emails for expiring passwords of local Linux PAM accounts
 
 # How it works
    - Checks all local PAM accounts in /etc/passwd if password expires in certain amount of days<br/>
