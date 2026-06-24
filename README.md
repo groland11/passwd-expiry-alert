@@ -2,7 +2,7 @@
 Send notification emails for expiring passwords of local Linux PAM accounts
 
 # How it works
-   - Checks all local PAM accounts in /etc/passwd if password expires in certain amount of days<br/>
+   - Checks all local PAM accounts in /etc/passwd if password expires in certain number of days<br/>
      (see variable WARNING_DAYS, adjust to your specific requirements)
    - If so, send notifiction email to user<br/>
      Email of user has to be stored in PAM field (s. prerequisites)
